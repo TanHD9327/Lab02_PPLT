@@ -5,7 +5,7 @@ int main()
      do 
      {
          printf("Enter a number: ");
-         scanf("%i", &n);
+         scanf("%d", &n);
          if (n<0)
          {
              printf("Invaid number! Try again.");
@@ -18,6 +18,7 @@ int main()
          n /= 10;
          ++digitNum;
      }    
-     printf("Number %i has %i digits",t,digitNum );        
+     printf("Number %i has %d digits",t,digitNum );        
  return 0;
+
 }
