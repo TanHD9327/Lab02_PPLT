@@ -5,7 +5,7 @@ int main()
     do
     {
         printf("Enter a number: ");
-        scanf_s("%i", &n);
+        scanf("%d", &n);
 
         if (n < 10)
         {
@@ -21,7 +21,7 @@ int main()
                 product *= r;
                 n /= 10;
     }
-    printf("Product of digits of %i is %i", t, product);
+    printf("Product of digits of %d is %d", t, product);
     
     return 0;
 }
